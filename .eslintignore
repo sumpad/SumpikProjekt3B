@@ -1,0 +1,4 @@
+node_modules
+web-build
+*/**/__tests__
+*.d.ts

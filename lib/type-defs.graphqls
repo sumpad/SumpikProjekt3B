@@ -1,0 +1,10 @@
+type User {
+  id: ID!
+  name: String!
+  status: String!
+}
+
+type Query {
+  viewer: User!
+  getRandom(max: Int = 1000): Int!
+}
